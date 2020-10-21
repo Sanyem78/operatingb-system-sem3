@@ -41,7 +41,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-    cout<<"Process "<<i+1<<" : waiting time = "<<wt[i]<<" , turnaround time = "<<tat[i]<<endl;
+    cout<<"Process "<<i+1<<" : burst time = "<<bt1[i]<<" arrival time = "<<at[i]<<" waiting time = "<<wt[i]<<"  turnaround time = "<<tat[i]<<endl;
     awt=awt+wt[i];
     atat=atat+tat[i];
     }
